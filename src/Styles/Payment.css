@@ -1,0 +1,162 @@
+li{
+  list-style-type: none;
+}
+
+ol,ul{
+  padding: 0px;
+  margin: 0px;
+}
+
+.amazon__logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  width: 100px;
+  margin-right: auto;
+  margin-left: 50px;
+}
+
+
+.payment {
+    background-color: white;
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.left_payment{
+  width: 70%;
+
+}
+
+.payment__container {
+    padding: 10px;
+    display: flex;
+    padding-right: 100px;
+    width: 100%;
+    justify-content: space-between;
+    height: 200px;
+    border: 1px solid lightgray;
+  }
+
+.payment_promocode{
+  width: 200px;
+  
+}
+.payment_promocode Input{
+  width: 120px;
+  font-size: 15px;
+  height: 40px;
+}
+
+.payment_promocode button{
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  padding: 9px;
+  width: 60px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 5px;
+  background-color: rgb(234, 237, 237);
+  color:rgb(124, 125, 126);
+  box-shadow: 0 0.7rem 0.5rem 0 rgba(229, 245, 245, 0.5) inset, 0.5rem 0 0 0.5rem rgba(234, 235, 235, 0.5) inset;
+}
+
+
+
+
+.payment__container > h1 a {
+    text-decoration: none;
+}
+
+.payment__section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.payment__title {
+    flex: 0.2;
+}
+
+.payment__address, .payment__items, .payment__details {
+    flex: 0.8;
+}
+
+.order_summary{
+  width: 28%;
+  display: flex;
+  border-radius: 3px;
+  height: 320px;
+  margin-top: 37px;
+  flex-direction: column;
+  padding: 0px 12px;
+  border: 1px solid lightgray;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.order_summary p {
+  font-weight: 500;
+}
+
+.payment_total span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.order_summary > button{
+  background: #FFD814;
+  border: 1px solid;
+  margin-top: 10px;
+  padding: 8px;
+  font-weight: 300;
+  cursor:pointer;
+  border-radius: 10px;
+  border-color: #FCD200;
+  color: #111;
+  margin-bottom: 5px;
+  box-shadow: 0 0.2rem 0.5rem 0 rgb(213 217 217 / 50%);
+
+}
+
+.order_summary li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment__product_container{
+  padding: 10px;
+  padding-right: 100px;
+  width: 100%;
+  margin-top: 4px;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+
+}
+
+  
+.payment__details > form {
+    max-width: 400px;
+  }
+
+  .payment__details > h3 {
+    padding-bottom: 20px;
+  }
+
+
+  .payment__details > form > div > button {
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    font-weight: bolder;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+  }

@@ -1,0 +1,39 @@
+.orders {
+    padding: 20px 80px;
+}
+
+.orders > h1 {
+    margin: 30px 0;
+}
+
+.order_heading{
+    display: flex;
+    justify-content: space-between;
+}
+.order_empty{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gainsboro;
+    
+}
+.order_empty h5{
+    font-weight: 600;
+    font-size: 35px;
+    color: gainsbor;
+}
+
+.orders button{
+ background: #FFD814;
+  border: 1px solid;
+  margin-top: 10px;
+  padding: 8px;
+  font-weight: 300;
+  cursor:pointer;
+  border-radius: 10px;
+  border-color: #FCD200;
+  color: #111;
+  margin-bottom: 5px;
+  box-shadow: 0 0.2rem 0.5rem 0 rgb(213 217 217 / 50%);
+}
